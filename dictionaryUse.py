@@ -1,5 +1,3 @@
-#Ntokozo Ntshangase
-#St! 4123601
 #Description: Program that accepts input from the user to create purchase order using dictionary
 
 print("Welcome. This program creates a purchase list from input you have entered. Also displays the most expensive item and the average of the prices entered \n")
