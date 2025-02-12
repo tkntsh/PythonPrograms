@@ -1,5 +1,3 @@
-#Author: Ntshangase Ntokozo
-#St: 4123601
 #Description: Program that accepts a word from the user to mirror it
 
 print("Welcome. This program accepts input from the user to mirror the word")
