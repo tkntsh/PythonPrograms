@@ -1,5 +1,3 @@
-#Ntokozo Ntshangase
-#St! 4123601
 #Description: Program that accepts input from the user to create and and two matrix
 
 print("Welcome. This program creates and adds two matrix from input you have entered\n")
