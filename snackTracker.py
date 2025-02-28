@@ -1,4 +1,4 @@
-#snack tracker python program using dictionaries and lists
+# snack_tracker.py
 snacks = ["chips", "candy", "soda", "cookies"]
 prices = {"chips": 1.5, "candy": 0.75, "soda": 1.25, "cookies": 2.0}
 
