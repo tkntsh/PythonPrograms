@@ -8,6 +8,7 @@ class Song:
         self.title = title
         self.artist = artist
         self.duration = duration
+        #time song is added
         self.addedTime = datetime.datetime.now()
     
     def play(self):
@@ -18,7 +19,7 @@ class Artist:
     def __init__(self, name):
         self.name = name
         #dictionary: albumName = list of songs
-        self.albums = {}  # Dictionary: album_name -> list of songs
+        self.albums = {}
     
     def addSong(self, song, album="Single"):
         if album not in self.albums:
@@ -42,10 +43,12 @@ def addSong(collection):
 def viewCollection(collection):
     print("Your Collection:")
     for artistName, artist in collection.items():
-        print(f"Artist: {artistName.upper()}")  # String manipulation - Lesson 11
+        #string manipulation
+        print(f"Artist: {artistName.upper()}")
         for album, songs in artist.albums.items():
             print(f"  Album: {album}")
-            for song in songs:  # Loops - Lesson 8
+            #loop statements
+            for song in songs:
                 print(f"    - {song.title} ({song.duration} mins)")
 
 #function to save collection (file handling)
